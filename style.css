@@ -1,0 +1,146 @@
+body {
+
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			background-image: url(Penguins.jpg);
+		}
+
+		
+
+		header {
+			height: 200px;
+			background-color: lightskyblue;
+			padding: 5px;
+			text-align: center;
+			color: orange;
+		}
+
+		header h1 {
+
+			margin-top: 70px;
+			background-color: whitesmoke;
+			border: 3px solid black;
+			border-radius: 10px;
+			box-shadow: 0 8px 3px grey;
+			display: inline-block;
+			padding: 5px;
+			transition: 1s;
+		}
+
+		header h1:hover {
+
+			background-color: orange;
+			color: white;
+		}
+
+		nav {
+
+			width: 100%;
+			background-color: teal;
+			padding: 2px;
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+		li {
+
+			width: 0;
+			display: inline-block;
+			font-weight: bold;
+			margin-left: 20px;
+			padding: 20px;
+			background-color: orange;
+			border: 3px solid black;
+			transition: 1s;
+		}
+
+		li:hover {
+
+			
+			width: 100px;
+		}
+
+		li a {
+
+			text-decoration: none;
+			color: white;
+			margin: 5px;
+			padding: 5px;
+		}
+
+		.container {
+
+			width: 800px;
+			margin: auto;
+			background-image: url(christmas-dark.png);
+		}
+
+
+		.kotak {
+			width: 100px;
+			height: 100px;
+			padding: 2px;
+			background-color: salmon;
+			transition: 1s linear;
+			overflow: hidden;
+		}
+
+		.kotak:hover {
+
+			width: 600px;
+			background-color: orange;
+			height: 600px;
+		}
+
+		p {
+			color: whitesmoke;
+			font-size: 20px;
+		}
+
+		
+
+		h3 {
+
+			color: whitesmoke;
+			background-color: orange;
+			display: inline-block;
+			border: 3px solid teal;
+			border-radius: 10px;
+			box-shadow: 5px 5px 2px grey;
+			margin: 5px;
+			padding: 2px;
+		}
+
+		footer {
+
+			width: 100%;
+			background: lightskyblue;
+			color: white;
+			margin: 0;
+			padding: 30px;
+		}
+
+		.kotak--2 {
+
+			width: 200px;
+			height: 50px;
+			background-color: orange;
+			border: 1px solid teal;
+			display: inline-block;
+			margin: 5px;
+			padding: 10px;
+			border-radius: 10px;
+			overflow: hidden;
+			transition: 1s ease-in;
+		}
+
+		footer:hover .kotak--2 {
+
+			transform: rotate(360deg);
+			margin-left: 500px;
+			background-color: teal;
+			height: 150px;
+			width: 300px;
+		}
